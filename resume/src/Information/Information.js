@@ -1,0 +1,1 @@
+export const Information = {Email: "ankursoni2974@gmail.com"};
