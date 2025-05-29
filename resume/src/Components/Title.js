@@ -2,7 +2,7 @@ import React from 'react'
 
 const Title = (props) => {
   return (
-    <div>
+    <div className='Title font-color'>
       <p>{props.titleName}</p>
     </div>
   )
