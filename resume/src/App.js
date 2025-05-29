@@ -14,6 +14,7 @@ function App() {
     <div className="App">
       <Title titleName = "Ankur Soni"/>
       <Data icon={<MdEmail/>} content={Information.Email}></Data>
+      <Data icon={<IoMdPhonePortrait/>} content={Information.Phone}></Data>
     </div>
   );
 }
