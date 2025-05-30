@@ -43,5 +43,9 @@
   justify-content: center;
 }
 .icon{
-  margin-bottom: -3px;
+  margin-bottom: -5px;
+}
+.divider{
+  font-weight: 600;
+  font-size: larger;
 }
