@@ -54,6 +54,7 @@ const Resume = () => {
           return (
             <Project
               projectName={project.projectName}
+              link={project.link}
               description={project.description}
             />
           );

@@ -4,7 +4,7 @@ const Education = (props) => {
   return (
     <div>
       <div className="apart">
-        <p>{props.college}</p>
+        <p className="font-bold">{props.college}</p>
         <p>{props.duration}</p>
       </div>
       <div>

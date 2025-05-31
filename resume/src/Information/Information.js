@@ -47,6 +47,7 @@ export const Information = {
   projects: [
     {
       projectName: "Rock Paper Scissor Game",
+      link: "https://ankursonideveloper.github.io/RockPaperScissor/",
       description:
         "This is a traditional game built on HTML, CSS and Javascript.",
     },

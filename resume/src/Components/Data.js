@@ -1,12 +1,12 @@
-import React from 'react';
-
+import React from "react";
 
 const Data = (props) => {
   return (
-    <div className='Data font-color'>
-      <span className='icon'>{props.icon}</span><span>{props.content}</span>
+    <div className="Data font-color">
+      <span className="icon">{props.icon}</span>
+      <span>{props.content}</span>
     </div>
-  )
-}
+  );
+};
 
-export default Data
+export default Data;

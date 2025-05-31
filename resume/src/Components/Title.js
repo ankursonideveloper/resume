@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Title = (props) => {
   return (
-    <div className='Title font-color'>
-      <p>{props.titleName}</p>
-    </div>
-  )
-}
+    <>
+      <p className="Title font-color">{props.titleName}</p>
+    </>
+  );
+};
 
-export default Title
+export default Title;

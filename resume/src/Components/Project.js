@@ -6,7 +6,9 @@ const Project = (props) => {
       <div>
         <ul>
           <li>
-            <span>{props.projectName}: </span>
+            <a href={props.link} target="_blank">
+              <span className="font-bold">{props.projectName}: </span>
+            </a>
             <span>{props.description}</span>
           </li>
         </ul>

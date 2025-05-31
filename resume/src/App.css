@@ -33,6 +33,7 @@
   align-items: center;
   gap: 3px;
   justify-content: center;
+  margin-top: -2vh;
 }
 .Header2 {
   display: flex;
@@ -41,6 +42,17 @@
   align-items: center;
   gap: 3px;
   justify-content: center;
+  text-decoration: none;
+}
+.Header2 a {
+  text-decoration: none;
+  color: inherit;
+}
+.Header2 a:hover {
+  text-decoration: underline;
+}
+.Header2 a:visited {
+  color: #7777ff;
 }
 .icon {
   margin-bottom: -5px;
