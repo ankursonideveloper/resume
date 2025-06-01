@@ -4,7 +4,7 @@ import Divider from "./Divider";
 const Section = (props) => {
   return (
     <div>
-      <p className="font-bold">{props.name}</p>
+      <p className="font-bold section-heading-font">{props.name}</p>
       <Divider />
       <p>{props.children}</p>
     </div>

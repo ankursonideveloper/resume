@@ -5,7 +5,7 @@ const Project = (props) => {
     <div>
       <div>
         <ul>
-          <li>
+          <li className="content-inside-space">
             <a href={props.link} target="_blank">
               <span className="font-bold">{props.projectName}: </span>
             </a>

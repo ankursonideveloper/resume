@@ -4,11 +4,15 @@ const Experience = (props) => {
   return (
     <div>
       <div className="apart">
-        <p className="font-bold">{props.company}</p>
+        <p className="font-bold content-inside-space company-font">
+          {props.company}
+        </p>
         <p>{props.duration}</p>
       </div>
       <div>
-        <p className="font-bold font-italic">{props.designation}</p>
+        <p className="font-bold font-italic content-inside-space">
+          {props.designation}
+        </p>
       </div>
       <div>
         <ul>

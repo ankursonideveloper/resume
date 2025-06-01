@@ -21,6 +21,20 @@ export const Information = {
   },
   experience: [
     {
+      companyName: "Sciometrix, Royal Oak, MI",
+      designation: "Software Engineer",
+      duration: "March 2022 - Present",
+      description: [
+        "Designed and developed RESTful APIs and integrated third-party services to power a US healthcare SaaS product (Clinicus.ai).",
+        "Built scalable backend systems using Node.js (Express) and PostgreSQL, leveraging advanced features like CTEs, triggers, stored procedures, and complex joins.",
+        "Led AWS infrastructure automation using Lambda, Fargate, EventBridge, ECR, SNS, SES, and Kinesis for real-time voice data processing.",
+        "Created Dockerized scripts and scheduled them via Lambda + ECR, optimizing long-running job execution.",
+        "Built full-stack features in React (hooks, dashboard libraries) and implemented dynamic UI templates with HTML/CSS and data bindings.",
+        "Integrated Salesforce with AWS to send dynamic SMS templates via SNS; built Apex classes, flows, and process automations.",
+        "Delivered powerful visualizations and reports by integrating data with Tableau dashboards and Salesforce reports.",
+      ],
+    },
+    {
       companyName: "Sciometrix",
       designation: "Software Engineer",
       duration: "March 2022 - Present",
@@ -45,6 +59,18 @@ export const Information = {
     },
   ],
   projects: [
+    {
+      projectName: "Rock Paper Scissor Game",
+      link: "https://ankursonideveloper.github.io/RockPaperScissor/",
+      description:
+        "This is a traditional game built on HTML, CSS and Javascript.",
+    },
+    {
+      projectName: "Rock Paper Scissor Game",
+      link: "https://ankursonideveloper.github.io/RockPaperScissor/",
+      description:
+        "This is a traditional game built on HTML, CSS and Javascript.",
+    },
     {
       projectName: "Rock Paper Scissor Game",
       link: "https://ankursonideveloper.github.io/RockPaperScissor/",

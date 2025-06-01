@@ -14,6 +14,7 @@
   padding-left: 4vw;
   padding-right: 4vw;
   background-color: white;
+  padding-bottom: 50px;
 }
 .Title {
   font-size: 30px;
@@ -60,6 +61,7 @@
 .divider {
   font-weight: 600;
   font-size: larger;
+  margin-bottom: -17px;
 }
 .apart {
   display: flex;
@@ -72,4 +74,36 @@
 }
 .font-italic {
   font-style: italic;
+}
+.section-heading-font {
+  font-size: 22px;
+  margin-bottom: -1vh;
+}
+.section-line-height {
+  line-height: 20px;
+}
+hr {
+  border: 1px solid;
+}
+.content {
+  margin-top: -1.5vh;
+}
+.content-exp {
+  margin-top: -4vh;
+}
+.content-inside-space {
+  margin-top: -10px;
+}
+.company-font {
+  font-size: 18px;
+}
+.degree {
+  margin-top: -29px;
+  font-weight: 500;
+}
+.degree-description {
+  margin-top: -15px;
+}
+.college-font {
+  font-size: 18px;
 }
