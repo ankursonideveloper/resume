@@ -117,7 +117,7 @@ hr {
 
 .company-font,
 .college-font {
-  font-size: 1.2em;
+  font-size: 19px;
 }
 @media (max-width: 1080px) {
   .Resume {
