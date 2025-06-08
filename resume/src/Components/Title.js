@@ -3,7 +3,7 @@ import React from "react";
 const Title = (props) => {
   return (
     <>
-      <p className="Title font-color">{props.titleName}</p>
+      <p className="Title">{props.titleName}</p>
     </>
   );
 };

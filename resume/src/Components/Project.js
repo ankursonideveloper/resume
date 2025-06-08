@@ -2,7 +2,7 @@ import React from "react";
 
 const Project = (props) => {
   return (
-    <div>
+    <div className="project-content">
       <div>
         <ul>
           <li className="content-inside-space">

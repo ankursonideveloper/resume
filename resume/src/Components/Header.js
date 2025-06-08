@@ -5,7 +5,7 @@ import Header2 from './Header2';
 
 const Header = (props) => {
   return (
-    <div className='font-color'>
+    <div >
       {props.children}
     </div>
   )

@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = (props) => {
   return (
-    <div>
+    <div className="experience-content">
       <div className="apart">
         <p className="font-bold content-inside-space company-font">
           {props.company}

@@ -3,7 +3,7 @@ import { Information } from "../Information/Information";
 
 const Skills = () => {
   return (
-    <div>
+    <div className="skill-content">
       <p className="content-inside-space">
         <span className="font-bold ">Languages: </span>
         <span>{Information.skills.language}</span>

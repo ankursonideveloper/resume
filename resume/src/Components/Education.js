@@ -2,7 +2,7 @@ import React from "react";
 
 const Education = (props) => {
   return (
-    <div>
+    <div className="education-content">
       <div className="apart">
         <p className="font-bold college-font">{props.college}</p>
         <p>{props.duration}</p>

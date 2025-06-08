@@ -2,7 +2,7 @@ import React from "react";
 
 const Data = (props) => {
   return (
-    <div className="Data font-color">
+    <div className="Data">
       <span className="icon">{props.icon}</span>
       <span>{props.content}</span>
     </div>
