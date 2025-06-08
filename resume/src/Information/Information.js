@@ -21,7 +21,7 @@ export const Information = {
   },
   experience: [
   {
-    companyName: "Sciometrix, Royal Oak, MI",
+    companyName: "Sciometrix, Royal Oak, MI - Remote",
     designation: "Software Engineer",
     duration: "April 2024 - Present",
     description: [
@@ -39,7 +39,7 @@ export const Information = {
     ],
   },
   {
-    companyName: "Innovya Technologies, Remote",
+    companyName: "Innovya Technologies, Pune - Remote",
     designation: "Software Engineer",
     duration: "March 2022 – April 2024",
     description: [
