@@ -15,6 +15,7 @@ import Skills from "./Skills";
 import Experience from "./Experience";
 import Education from "./Education";
 import Project from "./Project";
+import About from "./About";
 
 const Resume = () => {
   return (
@@ -24,6 +25,7 @@ const Resume = () => {
         <Header1 />
         <Header2 />
       </Header>
+      <Section name="About">{<About />}</Section>
       <Section name="Skills">{<Skills />}</Section>
       <Section name="Experience">
         {Information.experience.map((experience) => {
