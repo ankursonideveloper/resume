@@ -12,6 +12,15 @@
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.3); /* better box-shadow */
   min-width: 400px;
   max-width: 21cm;
+  position: relative;
+}
+.Download {
+  position: sticky;
+  top: 8%;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 10;
+  margin-right: 10px; /* distance from right edge inside resume */
 }
 
 .Title {

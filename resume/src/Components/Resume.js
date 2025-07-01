@@ -1,13 +1,7 @@
-import React from "react";
-import { MdEmail } from "react-icons/md";
-import { IoMdPhonePortrait } from "react-icons/io";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { IoMdDownload } from "react-icons/io";
 import Title from "./Title";
 import Header1 from "./Header1";
 import Header2 from "./Header2";
-import Divider from "./Divider";
-import Data from "./Data";
 import { Information } from "../Information/Information";
 import Header from "./Header";
 import Section from "./Section";
@@ -18,8 +12,23 @@ import Project from "./Project";
 import About from "./About";
 
 const Resume = () => {
+  const handleDownload = () => {
+    const resumeUrl = "/resume.pdf";
+    const link = document.createElement("a");
+    link.href = resumeUrl;
+    link.download = "Ankur_Soni_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div className="Resume">
+      <div className="Download">
+        <button onClick={handleDownload}>
+          <IoMdDownload size={20} />
+        </button>
+      </div>
+
       <Header>
         <Title titleName="Ankur Soni" />
         <Header1 />
