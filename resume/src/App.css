@@ -16,11 +16,20 @@
 }
 .Download {
   position: sticky;
-  top: 8%;
+  top: 80px;
   display: flex;
   justify-content: flex-end;
   z-index: 10;
   margin-right: 10px; /* distance from right edge inside resume */
+ 
+}
+button{
+  border: 1px solid rgb(183, 233, 183);
+  border-radius: 2px;
+  color: rgb(98, 231, 98);
+}
+button:hover{
+  color: darkgreen;
 }
 
 .Title {

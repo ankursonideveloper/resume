@@ -10,22 +10,17 @@ import Experience from "./Experience";
 import Education from "./Education";
 import Project from "./Project";
 import About from "./About";
+import { downloadPdf } from "../utils/downloadReactComponent";
 
 const Resume = () => {
-  const handleDownload = () => {
-    const resumeUrl = "/resume.pdf";
-    const link = document.createElement("a");
-    link.href = resumeUrl;
-    link.download = "Ankur_Soni_Resume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+  const handleDownload = async() => {
+    await downloadPdf("Resume");
   };
   return (
-    <div className="Resume">
+    <div className="Resume" id="Resume">
       <div className="Download">
         <button onClick={handleDownload}>
-          <IoMdDownload size={20} />
+          <IoMdDownload size={25} />
         </button>
       </div>
 
