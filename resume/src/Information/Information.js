@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 export const Information = {
   about: {
     summary:
-      "Senior Software Engineer with 5 years of experience specializing in Node.js, React, PostgreSQL, Salesforce, and AWS cloud technologies. Experienced in designing and implementing robust APIs, automating complex workflows, and building scalable cloud-based solutions. Proficient in integrating third-party APIs, developing dynamic dashboards, and migrating legacy systems to serverless architectures. Skilled in Git version control, Bitbucket, and agile methodologies. Passionate about leveraging technology to streamline processes, enhance system performance, and deliver impactful business solutions.",
+      "Senior Software Engineer with 5 years of experience specializing in Node.js, React, PostgreSQL, AWS cloud technologies, and Salesforce. Experienced in designing and implementing robust APIs, automating complex workflows, and building scalable cloud-based solutions. Proficient in integrating third-party APIs, developing dynamic dashboards, and migrating legacy systems to serverless architectures. Skilled in Git version control, Bitbucket, and agile methodologies. Passionate about leveraging technology to streamline processes, enhance system performance, and deliver impactful business solutions.",
   },
   email: { emailId: "ankursoni2974@gmail.com", emailIcon: <MdEmail /> },
   phone: { phoneNumber: "+919305463385", phoneIcon: <IoMdPhonePortrait /> },
@@ -25,7 +25,7 @@ export const Information = {
     database: "PostgreSQL, MySQL, MSSQL",
     cloud:
       "AWS (Lambda, EC2, ECR, SNS, EventBridge, CloudWatch, SES, Kinesis, Fargate, AWS Connect), Vercel",
-    devOpsTools: "Git, Docker, Bitbucket, CI/CD (AWS CodePipeline)",
+    devOpsTools: "Git, Docker, Bitbucket, CI/CD (AWS CodePipeline), Postman",
     salesforce:
       "Apex Triggers, SOQL, Salesforce Lightning, Reports & Dashboards",
     analytics: "Tableau, Excel",
