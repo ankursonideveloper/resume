@@ -25,7 +25,7 @@ export const Information = {
     database: "PostgreSQL, MySQL, MSSQL",
     cloud:
       "AWS (Lambda, EC2, ECR, SNS, EventBridge, CloudWatch, SES, Kinesis, Fargate, AWS Connect), Vercel",
-    devOpsTools: "Git, Docker, Bitbucket, CI/CD (AWS CodePipeline), DigitalOcean, Postman",
+    devOpsTools: "Git, Docker, Bitbucket, CI/CD (AWS CodePipeline), DigitalOcean, Postman, Jira",
     salesforce:
       "Apex Triggers, SOQL, Salesforce Lightning, Reports & Dashboards",
     analytics: "Tableau, Excel",
