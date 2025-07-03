@@ -57,10 +57,10 @@ export const Information = {
       designation: "Software Engineer",
       duration: "March 2022 – April 2024",
       description: [
-        "Worked as a Software Engineer handling projects primarily for the Sciometrix client, gaining deep domain knowledge in healthcare and data-driven applications.",
+        "Worked as a Software Engineer handling projects primarily for the Sciometrix(Currently working here) client, gaining deep domain knowledge in healthcare and data-driven applications.",
         "Conducted web scraping using Python, efficiently extracting and loading data into MySQL databases for backend consumption by PHP applications.",
         "Developed backend solutions using MySQL, ensuring data consistency, integrity, and optimized query performance.",
-        "Collaborated with InsightSoftware for six months on SQL-driven backend systems, enhancing the performance of data-intensive spreadsheet products.",
+        "Collaborated with InsightSoftware for six months as Technical Support Manager worked on their product Spreadsheet Server.",
         "Implemented automated data integration workflows between multiple platforms, significantly reducing manual intervention and improving data accuracy.",
       ],
     },
@@ -79,7 +79,7 @@ export const Information = {
       projectName: "Rock Paper Scissor Game",
       link: "https://ankursonideveloper.github.io/RockPaperScissor/",
       description:
-        "Developed an interactive Rock-Paper-Scissors game using HTML, CSS, and vanilla JavaScript. The application features dynamic UI updates, real-time user interaction, and logic to determine game outcomes. Designed with responsive styling to ensure a smooth user experience across devices. This project demonstrates strong fundamentals in DOM manipulation, event handling, and game logic implementation.",
+        "Developed an interactive Rock-Paper-Scissors game using HTML, CSS, and vanilla JavaScript. The application features dynamic UI updates, real-time user interaction, and logic to determine game outcomes.",
     },
   ],
 };
