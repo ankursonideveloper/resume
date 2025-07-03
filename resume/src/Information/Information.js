@@ -54,7 +54,7 @@ export const Information = {
     },
     {
       companyName: "Innovya Technologies, Pune - Remote",
-      designation: "Software Engineer",
+      designation: "Software Developer",
       duration: "March 2022 – April 2024",
       description: [
         "Worked as a Software Engineer handling projects primarily for the Sciometrix(Currently working here) client, gaining deep domain knowledge in healthcare and data-driven applications.",
