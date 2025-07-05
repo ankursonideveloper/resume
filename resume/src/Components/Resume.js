@@ -13,16 +13,14 @@ import About from "./About";
 import { downloadPdf } from "../utils/downloadReactComponent";
 
 const Resume = () => {
-  const handleDownload = async() => {
-    await downloadPdf("Resume");
-  };
+ 
   return (
     <div className="Resume" id="Resume">
-      <div className="Download">
-        <button onClick={handleDownload}>
+      {/* <div className="Download">
+        <button >
           <IoMdDownload size={25} />
         </button>
-      </div>
+      </div> */}
 
       <Header>
         <Title titleName="Ankur Soni" />
