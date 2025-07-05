@@ -10,17 +10,23 @@ import Experience from "./Experience";
 import Education from "./Education";
 import Project from "./Project";
 import About from "./About";
-import { downloadPdf } from "../utils/downloadReactComponent";
 
 const Resume = () => {
+  const downloadFile = () => {
+    window.open(
+      Information.downloadLink,
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
  
   return (
     <div className="Resume" id="Resume">
-      {/* <div className="Download">
-        <button >
+      <div className="Download">
+        <button onClick={downloadFile}>
           <IoMdDownload size={25} />
         </button>
-      </div> */}
+      </div>
 
       <Header>
         <Title titleName="Ankur Soni" />
