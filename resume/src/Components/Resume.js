@@ -43,6 +43,17 @@ const Resume = () => {
           );
         })}
       </Section>
+      <Section name="Projects">
+        {Information.projects.map((project) => {
+          return (
+            <Project
+              projectName={project.projectName}
+              link={project.link}
+              description={project.description}
+            />
+          );
+        })}
+      </Section>
       <Section name="Education">
         {Information.education.map((education) => {
           return (
@@ -55,17 +66,7 @@ const Resume = () => {
           );
         })}
       </Section>
-      <Section name="Projects">
-        {Information.projects.map((project) => {
-          return (
-            <Project
-              projectName={project.projectName}
-              link={project.link}
-              description={project.description}
-            />
-          );
-        })}
-      </Section>
+      
     </div>
   );
 };

@@ -1,8 +1,12 @@
 import React from "react";
 
 const Experience = (props) => {
+  const scrollToSection = (id) => {
+  const el = document.getElementById(id);
+  if (el) el.scrollIntoView({ behavior: "smooth" });
+};
   return (
-    <div className="experience-content">
+    <div className="experience-content" id={props.id}>
       <div className="apart">
         <p className="font-bold content-inside-space company-font">
           {props.company}
@@ -16,8 +20,8 @@ const Experience = (props) => {
       </div>
       <div>
         <ul>
-          {props.points.map((point) => {
-            return <li>{point}</li>;
+          {props.points.map((point, index) => {
+            return <li key={index}>{point}</li>;
           })}
         </ul>
       </div>
