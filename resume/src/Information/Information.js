@@ -8,7 +8,7 @@ export const Information = {
   downloadLink: "https://drive.google.com/uc?export=download&id=142ITbDNNmGlL-urDkuanufddAz-8mTW4",
   about: {
     summary:
-      "Senior Software Engineer with 5 years of experience specializing in Node.js, React, PostgreSQL, AWS cloud technologies, and Salesforce. Experienced in designing and implementing robust APIs, automating complex workflows, and building scalable cloud-based solutions. Proficient in integrating third-party APIs, developing dynamic dashboards, and migrating legacy systems to serverless architectures. Skilled in Git version control, Bitbucket, and agile methodologies. Passionate about leveraging technology to streamline processes, enhance system performance, and deliver impactful business solutions.",
+      "Software Engineer with over 4 years of experience specializing in Node.js, React, PostgreSQL, AWS cloud technologies, and Salesforce. Experienced in designing and implementing robust APIs, automating complex workflows, and building scalable cloud-based solutions. Proficient in integrating third-party APIs, developing dynamic dashboards, and migrating legacy systems to serverless architectures. Skilled in Git version control, Bitbucket, and agile methodologies. Passionate about leveraging technology to streamline processes, enhance system performance, and deliver impactful business solutions.",
   },
   email: { emailId: "ankursoni2974@gmail.com", emailIcon: <MdEmail /> },
   phone: { phoneNumber: "+919305463385", phoneIcon: <IoMdPhonePortrait /> },
@@ -41,7 +41,7 @@ export const Information = {
       duration: "April 2024 - Present",
       id: "sciometrix-exp",
       description: [
-          <span>Developed reusable frontend components and dashboard tiles for a MERN stack application <a href="https://clinicus.ai/sign-in" target="_blank"><b>Clinicus.ai</b></a> ; created dynamic PDF generation templates using React.js, Tailwind CSS, Bootstrap, and Chakra UI.</span>,
+          <span>Developed reusable frontend components and dashboard tiles for a MERN stack application <a href="https://clinicus.ai/sign-in" target="_blank"><b>Clinicus.ai</b></a> and created dynamic PDF generation templates using React.js, Tailwind CSS, Bootstrap, and Chakra UI.</span>,
           <span>Designed and deployed multiple RESTful APIs with Node.js (Express) and PostgreSQL to support <a href="https://clinicus.ai/sign-in" target="_blank"><b>Clinicus.ai</b></a> backend services.</span>,
           "Maintained scalable Node.js scripts integrating third-party APIs, processing device data, and automating business logic for efficient database updates.",
           "Transitioned automated scripts from AWS EC2 instances to Dockerized AWS Lambda functions, improving scalability and reducing manual maintenance.",
@@ -51,7 +51,7 @@ export const Information = {
           "Migrated complex Salesforce Apex triggers to AWS Lambda, invoking them through Clinicus.ai backend services to improve scalability and maintainability.",
           "Developed an automated invoice generation system producing PDF attachments and formatted Excel reports integrated with Salesforce via AdvancedMD APIs, boosting operational efficiency.",
           "Designed and optimized PostgreSQL stored procedures and queries, significantly enhancing system performance and ensuring data integrity.",
-          "Migrated critical business logic from database stored procedures to Node.js services, leveraging modern JavaScript (filter, map, reduce) for improved maintainability and flexibility.",
+          "Migrated critical business logic from database stored procedures to Node.js services, leveraging modern JavaScript methods (e.g., filter, map, reduce) to enhance maintainability and flexibility.",
           "Integrated Salesforce CRM with PostgreSQL databases hosted on Heroku, ensuring seamless synchronization between front-end and backend systems.",
           "Created and maintained Salesforce objects, Apex triggers, scheduled jobs, and reports to automate core business workflows.",
           "Developed Tableau dashboards connected directly to PostgreSQL, delivering real-time analytics and visual insights for business stakeholders."
@@ -71,7 +71,7 @@ export const Information = {
       </span>,
       "Conducted web scraping using Python, efficiently extracting and loading data into MySQL databases for backend consumption by PHP applications.",
       "Developed backend solutions using MySQL, ensuring data consistency, integrity, and optimized query performance.",
-      <span>Collaborated with <a href="https://insightsoftware.com/" target="_blank"><b>InsightSoftware</b></a> for six months as Technical Support Manager worked on their product Spreadsheet Server.</span>,
+      <span>Collaborated with <a href="https://insightsoftware.com/" target="_blank"><b>InsightSoftware</b></a> for six months as Technical Support Manager working on their Spreadsheet Server product.</span>,
       "Implemented automated data integration workflows between multiple platforms, significantly reducing manual intervention and improving data accuracy.",
     ]
     },
