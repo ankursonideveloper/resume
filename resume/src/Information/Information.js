@@ -30,9 +30,9 @@ export const Information = {
     devOpsTools: "Git, Docker, Bitbucket, CI/CD (AWS CodePipeline), DigitalOcean, Postman, Jira",
     salesforce:
       "Apex Triggers, SOQL, Salesforce Lightning, Reports & Dashboards",
-    analytics: "Tableau, Excel",
+    analytics: "Tableau, Microsoft Excel",
     miscellaneous:
-      "Web Scraping, Agile methodologies, RESTful APIs, Automation Scripts, Serverless Architectures",
+      "Web scraping, Agile methodologies, RESTful APIs, Automation Scripts, Serverless Architecture",
   },
   experience: [
     {
@@ -49,8 +49,8 @@ export const Information = {
           "Built a real-time call data pipeline leveraging AWS Kinesis and Lambda to capture missed calls from Amazon Connect, syncing with Salesforce and PostgreSQL; improved appointment scheduling and customer engagement via automated follow-ups and live dashboards.",
           "Integrated Salesforce with AWS services (SNS, EventBridge, Pinpoint, Lambda) to enable real-time two-way SMS communication and voice-call data management, enhancing patient engagement and automated interactions.",
           "Migrated complex Salesforce Apex triggers to AWS Lambda, invoking them through Clinicus.ai backend services to improve scalability and maintainability.",
-          "Developed an automated invoice generation system producing PDF attachments and formatted Excel reports integrated with Salesforce via AdvancedMD APIs, boosting operational efficiency.",
-          "Designed and optimized PostgreSQL stored procedures and queries, significantly enhancing system performance and ensuring data integrity.",
+          "Developed an automated invoice generation system producing PDF attachments and formatted Excel reports integrated with Salesforce using Salesforce bulk APIs, boosting operational efficiency.",
+          "Designed and optimized PostgreSQL stored procedures, triggers, views, CTEs and queries, significantly enhancing system performance and ensuring data integrity.",
           "Migrated critical business logic from database stored procedures to Node.js services, leveraging modern JavaScript methods (e.g., filter, map, reduce) to enhance maintainability and flexibility.",
           "Integrated Salesforce CRM with PostgreSQL databases hosted on Heroku, ensuring seamless synchronization between front-end and backend systems.",
           "Created and maintained Salesforce objects, Apex triggers, scheduled jobs, and reports to automate core business workflows.",
