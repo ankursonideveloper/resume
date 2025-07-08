@@ -22,11 +22,11 @@ const Resume = () => {
  
   return (
     <div className="Resume" id="Resume">
-      <div className="Download">
+      {/* <div className="Download">
         <button onClick={downloadFile}>
           <IoMdDownload size={25} />
         </button>
-      </div>
+      </div> */}
       <Header>
         <Title titleName="Ankur Soni" />
         <Header1 />
