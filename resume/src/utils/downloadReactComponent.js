@@ -21,7 +21,7 @@ const puppeteer = require('puppeteer');
   });
 
   await page.pdf({
-    path: 'Ankur_Resume_with_moonstone_July_8_2025.pdf',
+    path: 'Ankur_Resume_withOut_moonstone_July_8_2025.pdf',
     format: 'A4',
     margin: { top: '10mm', bottom: '10mm', left: '0mm', right: '0mm' }
   });
