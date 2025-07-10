@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 export const Information = {
-  downloadLink: "https://drive.google.com/uc?export=download&id=1CPpJeFq-3Gv63EVVQ87AhLf7Gby1xz6W",
+  downloadLink: "https://drive.google.com/uc?export=download&id=1eRl9hioeFvQ1DEWPW5TayUfPrQQHpAlG",
   about: {
     summary:
       "Software Engineer with nearly 4 years of experience, specializing in full-stack development using Node.js, React, and PostgreSQL, along with AWS cloud technologies. Experienced in designing and developing scalable REST APIs, building responsive frontends, and automating backend workflows using cloud-native patterns. Skilled in integrating third-party APIs, implementing serverless architectures, and building dynamic dashboards. Well-versed in Git, Bitbucket, and agile practices. Proficient in writing complex SQL queries, including CTEs, views, triggers, and stored procedures, to support both transactional and analytical operations. Also experienced in Salesforce development and system integration. Passionate about crafting robust, maintainable solutions that drive real impact.",
