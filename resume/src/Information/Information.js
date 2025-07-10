@@ -7,7 +7,7 @@ export const Information = {
   downloadLink: "https://drive.google.com/uc?export=download&id=1_kfakWmd0wMseHvVoZNcRtSl3G_j_RAk",
   about: {
     summary:
-      "Software Engineer with nearly 4 years of experience specializing in Node.js, React, PostgreSQL, AWS cloud technologies, and Salesforce. Experienced in designing and implementing robust APIs, automating complex workflows, and building scalable cloud-based solutions. Proficient in integrating third-party APIs, developing dynamic dashboards, and migrating legacy systems to serverless architectures. Skilled in Git version control, Bitbucket, and agile methodologies. Passionate about leveraging technology to streamline processes, enhance system performance, and deliver impactful business solutions.",
+      "Software Engineer with nearly 4 years of experience, specializing in full-stack development using Node.js, React, and PostgreSQL, along with AWS cloud technologies. Experienced in designing and developing scalable REST APIs, building responsive frontends, and automating backend workflows using cloud-native patterns. Skilled in integrating third-party APIs, implementing serverless architectures, and building dynamic dashboards. Well-versed in Git, Bitbucket, and agile practices. Proficient in writing complex SQL queries, including CTEs, views, triggers, and stored procedures, to support both transactional and analytical operations. Also experienced in Salesforce development and system integration. Passionate about crafting robust, maintainable solutions that drive real impact.",
   },
   email: { emailId: "ankursoni2974@gmail.com", emailIcon: <MdEmail /> },
   phone: { phoneNumber: "+919305463385", phoneIcon: <IoMdPhonePortrait /> },
