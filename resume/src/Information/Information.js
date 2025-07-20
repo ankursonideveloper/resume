@@ -7,7 +7,7 @@ export const Information = {
   downloadLink: "https://drive.google.com/uc?export=download&id=1eRl9hioeFvQ1DEWPW5TayUfPrQQHpAlG",
   about: {
     summary:
-      "Software Engineer with nearly 4 years of experience, specializing in full-stack development using Node.js, React, and PostgreSQL, along with AWS cloud technologies. Experienced in designing and developing scalable REST APIs, building responsive frontends, and automating backend workflows using cloud-native patterns. Skilled in integrating third-party APIs, implementing serverless architectures, and building dynamic dashboards. Well-versed in Git, Bitbucket, and agile practices. Proficient in writing complex SQL queries, including CTEs, views, triggers, and stored procedures, to support both transactional and analytical operations. Also experienced in Salesforce development and system integration. Passionate about crafting robust, maintainable solutions that drive real impact.",
+      "Software Engineer with nearly 4 years of experience, specializing in full-stack development using React, Redux, Node.js, and PostgreSQL, along with AWS cloud technologies. Experienced in designing and developing scalable REST APIs, building responsive frontends, and automating backend workflows using cloud-native patterns. Skilled in integrating third-party APIs, implementing serverless architectures, and building dynamic dashboards. Well-versed in Git, Bitbucket, and agile practices. Proficient in writing complex SQL queries, including CTEs, views, triggers, and stored procedures, to support both transactional and analytical operations. Also experienced in Salesforce development and system integration. Passionate about crafting robust, maintainable solutions that drive real impact.",
   },
   email: { emailId: "ankursoni2974@gmail.com", emailIcon: <MdEmail /> },
   phone: { phoneNumber: "+919305463385", phoneIcon: <IoMdPhonePortrait /> },
@@ -21,7 +21,7 @@ export const Information = {
   },
   skills: {
     language: "JavaScript, Python, SQL, Java, C, Apex",
-    frontend: "React.js, HTML/CSS, Tailwind CSS, Bootstrap, Chakra UI",
+    frontend: "React, Redux, HTML/CSS, Tailwind CSS, Bootstrap, Chakra UI",
     backend: "Node.js (Express)",
     database: "PostgreSQL, MySQL, MSSQL, MongoDB",
     cloud:
@@ -40,7 +40,7 @@ export const Information = {
       duration: "April 2024 - Present",
       id: "sciometrix-exp",
       description: [
-          <span>Developed reusable frontend components and dashboard tiles for a MERN stack application <a href="https://clinicus.ai/sign-in" target="_blank"><b>Clinicus.ai</b></a> and created dynamic PDF generation templates using React.js, Tailwind CSS, Bootstrap, and Chakra UI.</span>,
+          <span>Developed reusable frontend components, interactive dashboard and Reports for a MERN stack application <a href="https://clinicus.ai/sign-in" target="_blank"><b>Clinicus.ai</b></a> and created dynamic PDF generation templates using React.js, Tailwind CSS, Bootstrap, and Chakra UI.</span>,
           <span>Designed and deployed multiple RESTful APIs with Node.js (Express) and PostgreSQL to support <a href="https://clinicus.ai/sign-in" target="_blank"><b>Clinicus.ai</b></a> backend services.</span>,
           "Maintained scalable Node.js scripts integrating third-party APIs, processing device data, and automating business logic for efficient database updates.",
           "Transitioned automated scripts from AWS EC2 instances to Dockerized AWS Lambda functions, improving scalability and reducing manual maintenance.",
@@ -65,8 +65,8 @@ export const Information = {
         Worked as a Software Engineer handling projects primarily for the{" "}
         <a  href="sciometrix-exp" >
           <b>Sciometrix</b>
-        </a >{" "}
-        client, gaining deep domain knowledge in healthcare and data-driven applications.
+        </a >{" (My current company) "}
+        client, gaining deep experience in building scalable, data-driven applications and full-stack systems.
       </span>,
       "Conducted web scraping using Python, efficiently extracting and loading data into MySQL databases for backend consumption by PHP applications.",
       "Developed backend solutions using MySQL, ensuring data consistency, integrity, and optimized query performance.",
