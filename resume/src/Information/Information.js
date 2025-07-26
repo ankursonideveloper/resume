@@ -10,7 +10,7 @@ export const Information = {
       "Software Engineer with nearly 4 years of experience, specializing in full-stack development using React, Redux, Node.js, and PostgreSQL, along with AWS cloud technologies. Experienced in designing and developing scalable REST APIs, building responsive frontends, and automating backend workflows using cloud-native patterns. Skilled in integrating third-party APIs, implementing serverless architectures, and building dynamic dashboards. Well-versed in Git, Bitbucket, and agile practices. Proficient in writing complex SQL queries, including CTEs, views, triggers, and stored procedures, to support both transactional and analytical operations. Also experienced in Salesforce development and system integration. Passionate about crafting robust, maintainable solutions that drive real impact.",
   },
   email: { emailId: "ankursoni2974@gmail.com", emailIcon: <MdEmail /> },
-  phone: { phoneNumber: "+919305463385", phoneIcon: <IoMdPhonePortrait /> },
+  phone: { phoneNumber: "+919305463385", phoneIcon: <IoMdPhonePortrait /> } ,
   gitHub: {
     link: "https://github.com/ankursonideveloper",
     gitHubIcon: <FaGithub />,
