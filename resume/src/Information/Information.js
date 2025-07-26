@@ -4,10 +4,11 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 export const Information = {
-  downloadLink: "https://drive.google.com/uc?export=download&id=1bQwRYIZV5K548DejAfwGQGE5peiZBUKj",
+  downloadLink:
+    "https://drive.google.com/uc?export=download&id=1bQwRYIZV5K548DejAfwGQGE5peiZBUKj",
   about: {
     summary:
-      "Software Engineer with nearly 4 years of experience, specializing in full-stack development using React, Redux, Node.js, and PostgreSQL, along with AWS cloud technologies. Experienced in designing and developing scalable REST APIs, building responsive frontends, and automating backend workflows using cloud-native patterns. Skilled in integrating third-party APIs, implementing serverless architectures, and building dynamic dashboards. Well-versed in Git, Bitbucket, and agile practices. Proficient in writing complex SQL queries, including CTEs, views, triggers, and stored procedures, to support both transactional and analytical operations. Also experienced in Salesforce development and system integration. Passionate about crafting robust, maintainable solutions that drive real impact.",
+      "Senior Full Stack Developer with about 4 years of experience building scalable, data-driven applications and cloud-native platforms using JavaScript (React, Node.js), PostgreSQL, and AWS. Proven track record in developing RESTful APIs, optimizing relational databases, and designing secure, production-grade web applications. Experienced in Agile development, DevOps, and CI/CD workflows. Adept at leading end-to-end feature delivery and collaborating with cross-functional teams in fast-paced environments.",
   },
   email: { emailId: "ankursoni2974@gmail.com", emailIcon: <MdEmail /> },
   phone: { phoneNumber: "+919305463385", phoneIcon: <IoMdPhonePortrait /> },
@@ -22,16 +23,17 @@ export const Information = {
   skills: {
     language: "JavaScript, Python, SQL, Java, C, Apex",
     frontend: "React, Redux, HTML/CSS, Tailwind CSS, Bootstrap, Chakra UI",
-    backend: "Node.js (Express)",
+    backend: "Node.js (Express), Spring Boot (learning)",
     database: "PostgreSQL, MySQL, MSSQL, MongoDB",
     cloud:
-      "AWS (Lambda, EC2, ECR, SNS, EventBridge, CloudWatch, SES, Kinesis, Fargate, Connect), Vercel",
-    devOpsTools: "Git, Docker, Bitbucket, CI/CD (AWS CodePipeline), DigitalOcean, Postman, Jira",
+      "AWS (Lambda, EC2, ECR, SNS, EventBridge, CloudWatch, SES, Kinesis, Fargate, Connect, S3)",
+    devOpsTools:
+      "Git, Docker, Bitbucket, Jenkins, CI/CD (AWS CodePipeline), DigitalOcean, Postman, Jira, Confluence",
     salesforce:
       "Apex Triggers, SOQL, Salesforce Lightning, Reports & Dashboards",
     analytics: "Tableau, Microsoft Excel",
     miscellaneous:
-      "Web scraping, Agile methodologies, RESTful APIs, Automation Scripts, Serverless Architecture",
+      "Web scraping, Agile methodologies, RESTful APIs, Automation Scripts, Serverless Architecture, Unit & Integration Testing",
   },
   experience: [
     {
@@ -40,39 +42,36 @@ export const Information = {
       duration: "April 2024 - Present",
       id: "sciometrix-exp",
       description: [
-          <span>Developed reusable frontend components, interactive dashboard and Reports for a MERN stack application <a href="https://clinicus.ai/sign-in" target="_blank"><b>Clinicus.ai</b></a> and created dynamic PDF generation templates using React.js, Tailwind CSS, Bootstrap, and Chakra UI.</span>,
-          <span>Designed and deployed multiple RESTful APIs with Node.js (Express) and PostgreSQL to support <a href="https://clinicus.ai/sign-in" target="_blank"><b>Clinicus.ai</b></a> backend services.</span>,
-          "Maintained scalable Node.js scripts integrating third-party APIs, processing device data, and automating business logic for efficient database updates.",
-          "Transitioned automated scripts from AWS EC2 instances to Dockerized AWS Lambda functions, improving scalability and reducing manual maintenance.",
-          "Automated AWS deployment pipelines using Docker, AWS ECR, Lambda, and CloudWatch, enabling continuous integration and delivery triggered by Bitbucket commits.",
-          "Built a real-time call data pipeline leveraging AWS Kinesis and Lambda to capture missed calls from Amazon Connect, syncing with Salesforce and PostgreSQL; improved appointment scheduling and customer engagement via automated follow-ups and live dashboards.",
-          "Integrated Salesforce with AWS services (SNS, EventBridge, Pinpoint, Lambda) to enable real-time two-way SMS communication and voice-call data management, enhancing patient engagement and automated interactions.",
-          "Migrated complex Salesforce Apex triggers to AWS Lambda, invoking them through Clinicus.ai backend services to improve scalability and maintainability.",
-          "Developed an automated invoice generation system producing PDF attachments and formatted Excel reports integrated with Salesforce using Salesforce bulk APIs, boosting operational efficiency.",
-          "Designed and optimized PostgreSQL stored procedures, triggers, views, CTEs and queries, significantly enhancing system performance and ensuring data integrity.",
-          "Migrated critical business logic from database stored procedures to Node.js services, leveraging modern JavaScript methods (e.g., filter, map, reduce) to enhance maintainability and flexibility.",
-          "Integrated Salesforce CRM with PostgreSQL databases hosted on Heroku, ensuring seamless synchronization between front-end and backend systems.",
-          "Created and maintained Salesforce objects, Apex triggers, scheduled jobs, and reports to automate core business workflows.",
-          "Developed Tableau dashboards connected directly to PostgreSQL, delivering real-time analytics and visual insights for business stakeholders."
-        ],
+        <span>Led development of reusable frontend components and interactive dashboards for a MERN stack application <a href="https://clinicus.ai/sign-in" target="_blank"><b>Clinicus.ai</b></a>, and built dynamic PDF templates using React.js, Tailwind CSS, Bootstrap, and Chakra UI.</span>,
+        <span>Architected and deployed multiple RESTful APIs using Node.js (Express) and PostgreSQL, powering critical backend functionality for <a href="https://clinicus.ai/sign-in" target="_blank"><b>Clinicus.ai</b></a>.</span>,
+        "Engineered scalable Node.js scripts to integrate third-party APIs, process device data, and automate data pipelines.",
+        "Refactored legacy EC2 scripts into Dockerized AWS Lambda microservices, significantly improving scalability and fault tolerance.",
+        "Implemented a fully automated CI/CD pipeline using Docker, AWS ECR, Lambda, and CloudWatch, triggered by Bitbucket commits.",
+        "Built a real-time call data ingestion system using AWS Kinesis and Lambda, syncing missed call data from Amazon Connect with Salesforce and PostgreSQL.",
+        "Integrated AWS services (SNS, EventBridge, Pinpoint, Lambda) with Salesforce to enable real-time two-way SMS and voice-call data synchronization.",
+        "Migrated Salesforce Apex triggers to modular AWS Lambda functions invoked through the Clinicus backend, enhancing maintainability.",
+        "Designed and developed an automated invoicing system generating PDFs and Excel reports, integrating with Salesforce via Bulk APIs.",
+        "Optimized PostgreSQL performance by designing stored procedures, triggers, views, and complex CTE-based queries.",
+        "Reimplemented core business logic from database procedures into modular Node.js services for greater flexibility and testability.",
+        "Integrated PostgreSQL (on Heroku) with Salesforce CRM to maintain real-time sync between backend and frontend layers.",
+        "Maintained and enhanced Salesforce objects, Apex triggers, jobs, and dashboards to support automated workflows.",
+        "Developed Tableau dashboards powered by PostgreSQL to deliver real-time insights to business stakeholders."
+      ],
     },
     {
       companyName: <span><a href="https://www.innovyatech.com/" target="_blank">Innovya Technologies, Pune - Remote</a></span>,
       designation: "Software Developer",
       duration: "March 2022 – April 2024",
       description: [
-      <span>
-        Worked as a Software Engineer handling projects primarily for the{" "}
-        <a  href="sciometrix-exp" >
-          <b>Sciometrix</b>
-        </a >{" (My current company) "}
-        client, gaining deep experience in building scalable, data-driven applications and full-stack systems.
-      </span>,
-      "Conducted web scraping using Python, efficiently extracting and loading data into MySQL databases for backend consumption by PHP applications.",
-      "Developed backend solutions using MySQL, ensuring data consistency, integrity, and optimized query performance.",
-      <span>Collaborated with <a href="https://insightsoftware.com/" target="_blank"><b>InsightSoftware</b></a> for six months as Technical Support Manager working on their Spreadsheet Server product.</span>,
-      "Implemented automated data integration workflows between multiple platforms, significantly reducing manual intervention and improving data accuracy.",
-    ]
+        <span>Worked exclusively on projects for <a href="#sciometrix-exp"><b>Sciometrix</b></a>, serving as a core contributor in developing scalable, cloud-native full-stack applications and automation systems.</span>,
+        "Led backend development using MySQL and Node.js, delivering high-performance data services and ensuring data consistency across systems.",
+        "Implemented custom data pipelines and integrations using Python, including web scraping routines feeding MySQL databases consumed by PHP services.",
+        "Built secure RESTful APIs and internal tools to support data analysis, synchronization, and dashboarding workflows.",
+        "Collaborated closely with product managers, QA engineers, and analysts to iteratively ship new features using Agile and Kanban methodologies.",
+        "Initiated early adoption of containerization and AWS-based automation within the team, driving foundational DevOps practices.",
+        <span>Contributed to cross-company coordination during a six-month collaboration with <a href="https://insightsoftware.com/" target="_blank"><b>InsightSoftware</b></a> as a Technical Support Manager, supporting enhancements and troubleshooting for the Spreadsheet Server product.</span>,
+        "Engineered cross-platform data synchronization workflows that reduced manual effort and improved operational accuracy across platforms."
+      ]
     },
   ],
   education: [
@@ -85,26 +84,25 @@ export const Information = {
     },
   ],
   projects: [
-  {
-    projectName: "Real-Time Missed Call Processing Pipeline",
-    description:
-      "Designed and implemented a real-time AWS Kinesis and Lambda pipeline to capture missed calls from Amazon Connect, sync data with PostgreSQL and Salesforce, enhancing appointment scheduling and patient engagement with live dashboards.",
-  },
-  {
-    projectName: "Automated CI/CD Pipeline for Containerized AWS Lambda Scripts",
-    description:
-      "Built and deployed a fully automated CI/CD pipeline using Bitbucket, AWS CodePipeline, Docker, and Lambda, replacing EC2 cron jobs with scalable, event-driven Lambda executions monitored by CloudWatch and integrated with failure alerts.",
-  },
-  {
-    projectName: "Remote Patient Monitoring Alert System",
-    description:
-      "Developed a scalable RPM alert system integrating multi-device patient vitals, analyzing data via Node.js and PostgreSQL, and synchronizing with Salesforce to provide real-time clinical risk alerts for proactive healthcare interventions.",
-  },
-  {
-    projectName: "Healthcare Facility Automated Invoicing System",
-    description:
-      "Created an end-to-end invoicing solution that processes AdvancedMD billing data, applies dynamic rate logic, generates PDF and Excel invoices with React and Tailwind templates, and integrates outputs directly into Salesforce for operational efficiency.",
-  }
-],
-
+    {
+      projectName: "Real-Time Event-Driven Call Data Processing",
+      description:
+        "Built a real-time AWS Kinesis and Lambda pipeline to capture missed calls from Amazon Connect, sync with PostgreSQL and Salesforce, and enhance patient engagement via live dashboards.",
+    },
+    {
+      projectName: "CI/CD Automation for Containerized Lambda Functions",
+      description:
+        "Designed and implemented a CI/CD pipeline using Bitbucket, AWS CodePipeline, Docker, and Lambda, replacing EC2 cron jobs with reliable serverless functions monitored via CloudWatch.",
+    },
+    {
+      projectName: "Remote Patient Monitoring Alert System",
+      description:
+        "Developed a real-time RPM alert system to analyze multi-device patient vitals using Node.js and PostgreSQL, syncing alerts to Salesforce for proactive care.",
+    },
+    {
+      projectName: "End-to-End Automated Invoicing System",
+      description:
+        "Created a complete invoicing solution processing billing data, applying custom pricing rules, and generating PDF/Excel invoices with React templates, directly integrated into Salesforce.",
+    }
+  ],
 };
